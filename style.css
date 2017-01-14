@@ -67,22 +67,33 @@ hr {
   margin: 2em 5px;
 }
 
-ul, ol, table, pre, dl, blockquote, q {
-  margin: 10px 5px;
+table, pre, dl, blockquote, q, ul, ol {
+  margin: 1.2em 0;
 }
 
 ul, ol {
-  padding-left: 0;
-  list-style-position: inside;
+  padding-left: 2em;
+}
+
+li {
+  margin: 0.5em 0;
 }
 
 li p {
-  margin: 10px 0 !important;
+  margin: 0.5em 0 !important;
 }
 
 ul ul, ul ol, ol ul, ol ol {
   margin: 0;
-  padding-left: 0px;
+  padding-left: 1em;
+}
+
+ol ol, ul ol {
+  list-style-type: lower-roman;
+}
+
+ul ul ol, ul ol ol, ol ul ol, ol ol ol {
+  list-style-type: lower-alpha;
 }
 
 blockquote, q {

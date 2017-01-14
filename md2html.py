@@ -21,6 +21,6 @@ with open('temp/test.html', 'w', encoding='utf-8') as htmlfile:
     result = md(test)
     htmlfile.write(pack_html(result))
 
-print(pack_html(result))
+# print(pack_html(result))
 
 
