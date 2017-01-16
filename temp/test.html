@@ -1,212 +1,224 @@
-<!DOCTYPE html><html lang="zh-cn">
+<!DOCTYPE html>
+<html lang="zh-cn">
           <head>
           <meta charset="UTF-8">
           <title>output</title>
-          <link rel="stylesheet" type="text/css" href="../style.css">
-          </head>
-          <body><h2>如何用Markdown排版微信图文</h2>
-<p>Mardown是一种简洁高效的标记语言。
+          <style type="text/css">blockquote::before {content:none}
+blockquote::after {content:none}
+q::before {content:none}
+q::after {content:none}
+table tr:nth-child(2n) {background-color:#F8F8F8}</style>
+</head>
+          <body style="color:#555; font-size:14px; letter-spacing:0.15em; line-height:4em; margin-left:20%; margin-right:20%; text-align:justify" align="justify">
+<h2 style="color:#2298a5; font-style:bold; margin:0.5em 5px; padding:0.5em 0; text-align:left; border-bottom:1px solid #eee; font-size:20px" align="left">如何用Markdown排版微信图文</h2>
+<p style="margin:1.5em 5px">Mardown是一种简洁高效的标记语言。
 使用Markdown格式标记的文本可以被快速转换为HTML，
 然后粘贴到微信编辑器中，实现快速排版。</p>
-<p>Markdown文件通常使用“.md”作为扩展名。
+<p style="margin:1.5em 5px">Markdown文件通常使用“.md”作为扩展名。
 你可以使用专门的Markdown编辑器，它们通常会提供实时预览效果，
 让你在写作的同时看到生成HTML的格式。
 但你也可以使用普通的文本编辑器编辑Markdown文档，
 甚至以“.txt”为扩展名，这都不会造成影响。</p>
-<p>Markdown语法使用一些特殊的符号（<code>*</code>，<code>#</code>等）对格式进行标记，
+<p style="margin:1.5em 5px">Markdown语法使用一些特殊的符号（<code style='color:#999; font-family:Roboto, "Courier New", Consolas, Inconsolata, Courier, monospace; font-size:12px; margin-left:5px; border:1px solid #ddd; border-radius:3px; display:inline; padding:3px 3px; white-space:pre-wrap'>*</code>，<code style='color:#999; font-family:Roboto, "Courier New", Consolas, Inconsolata, Courier, monospace; font-size:12px; margin-left:5px; border:1px solid #ddd; border-radius:3px; display:inline; padding:3px 3px; white-space:pre-wrap'>#</code>等）对格式进行标记，
 这些标记会在显示效果中转换为格式，
-如果你希望在正文中不做转换地使用它们，请在符号前额外插入<code>\</code>符号。
-同时注意这些符号都是<strong>英文标点</strong>
+如果你希望在正文中不做转换地使用它们，请在符号前额外插入<code style='color:#999; font-family:Roboto, "Courier New", Consolas, Inconsolata, Courier, monospace; font-size:12px; margin-left:5px; border:1px solid #ddd; border-radius:3px; display:inline; padding:3px 3px; white-space:pre-wrap'>\</code>符号。
+同时注意这些符号都是<strong style="color:#2298a5">英文标点</strong>
 （有一些可以在中文输入法中输入，有一些必须先切换成英文输入法才能正确输入）。</p>
-<p>以下简要介绍在文章排版中最常用的Markdown语法，
-更多内容请参阅<a href="https://markdown-zh.readthedocs.io/en/latest/">Markdown官方文档</a>。</p>
-<h3>第1部分：标题格式</h3>
-<p>HTML将标题（Heading）分为h1-h6六个级别。</p>
-<p>其中h1代表最大的标题，h6代表最小的标题。</p>
-<p>要对标题进行标记，需要在文字前插入不同数量的<code>#</code>符号,
-<code>#</code>的数量与标题的级别一致。</p>
-<p>以下写法示例：</p>
-<pre><code>#h1:如何使用Markdown进行排版
+<p style="margin:1.5em 5px">以下简要介绍在文章排版中最常用的Markdown语法，
+更多内容请参阅<a href="https://markdown-zh.readthedocs.io/en/latest/" style="color:#2298a5; text-decoration:none">Markdown官方文档</a>。</p>
+<h3 style="font-size:18px; color:#2298a5; font-style:bold; margin:1.5em 5px; padding:0.5em 0; text-align:center" align="center">第1部分：标题格式</h3>
+<p style="margin:1.5em 5px">HTML将标题（Heading）分为h1-h6六个级别。</p>
+<p style="margin:1.5em 5px">其中h1代表最大的标题，h6代表最小的标题。</p>
+<p style="margin:1.5em 5px">要对标题进行标记，需要在文字前插入不同数量的<code style='color:#999; font-family:Roboto, "Courier New", Consolas, Inconsolata, Courier, monospace; font-size:12px; margin-left:5px; border:1px solid #ddd; border-radius:3px; display:inline; padding:3px 3px; white-space:pre-wrap'>#</code>符号,
+<code style='color:#999; font-family:Roboto, "Courier New", Consolas, Inconsolata, Courier, monospace; font-size:12px; margin-left:5px; border:1px solid #ddd; border-radius:3px; display:inline; padding:3px 3px; white-space:pre-wrap'>#</code>的数量与标题的级别一致。</p>
+<p style="margin:1.5em 5px">以下写法示例：</p>
+<pre style='margin:1.2em 0; color:#999; font-family:Roboto, "Courier New", Consolas, Inconsolata, Courier, monospace; font-size:12px; margin-left:5px; background-color:white; line-height:1.4em; display:block' bgcolor="white"><code style='color:#999; font-family:Roboto, "Courier New", Consolas, Inconsolata, Courier, monospace; font-size:12px; margin-left:5px; border:1px solid #ddd; border-radius:3px; display:block; padding:3px 3px; white-space:pre; overflow:auto'>#h1:如何使用Markdown进行排版
 ##h2:如何使用Markdown进行排版
 ###h3:如何使用Markdown进行排版
 ####h4:如何使用Markdown进行排版
 #####h5:如何使用Markdown进行排版
 ######h6:如何使用Markdown进行排版
 </code></pre>
-<p>其显示效果为：</p>
-<h1>h1:如何使用Markdown进行排版</h1>
-<h2>h2:如何使用Markdown进行排版</h2>
-<h3>h3:如何使用Markdown进行排版</h3>
-<h3>h3:如何使用Markdown进行排版</h3>
-<h4>h4:如何使用Markdown进行排版</h4>
-<h5>h5:如何使用Markdown进行排版</h5>
-<h6>h6:如何使用Markdown进行排版</h6>
-<p>建议正文中从h3开始使用（即把正文中最高级别的小标题设为h3，更低级别依次设为h4、h5……）。
+<p style="margin:1.5em 5px">其显示效果为：</p>
+<h1 style="color:#2298a5; font-style:bold; margin:0.5em 5px; padding:0.5em 0; text-align:left; border-bottom:1px solid #ddd; font-size:24px" align="left">h1:如何使用Markdown进行排版</h1>
+<h2 style="color:#2298a5; font-style:bold; margin:0.5em 5px; padding:0.5em 0; text-align:left; border-bottom:1px solid #eee; font-size:20px" align="left">h2:如何使用Markdown进行排版</h2>
+<h3 style="font-size:18px; color:#2298a5; font-style:bold; margin:1.5em 5px; padding:0.5em 0; text-align:center" align="center">h3:如何使用Markdown进行排版</h3>
+<h3 style="font-size:18px; color:#2298a5; font-style:bold; margin:1.5em 5px; padding:0.5em 0; text-align:center" align="center">h3:如何使用Markdown进行排版</h3>
+<h4 style="font-size:16px; color:#2298a5; font-style:bold; margin:1.5em 5px; padding:0.5em 0; text-align:center" align="center">h4:如何使用Markdown进行排版</h4>
+<h5 style="font-size:14px; color:#2298a5; font-style:bold; margin:1.5em 5px; padding:0.5em 0; text-align:center" align="center">h5:如何使用Markdown进行排版</h5>
+<h6 style="font-size:12px; color:#2298a5; font-style:bold; margin:1.5em 5px; padding:0.5em 0; text-align:center" align="center">h6:如何使用Markdown进行排版</h6>
+<p style="margin:1.5em 5px">建议正文中从h3开始使用（即把正文中最高级别的小标题设为h3，更低级别依次设为h4、h5……）。
 这样写出的Markdown文件能比较方便美观地移植到其他平台。</p>
-<h3>第2部分：正文排版</h3>
-<h4>一般规则</h4>
-<p>正文段落与段落之间需要空出一行（连按两次Enter），
+<h3 style="font-size:18px; color:#2298a5; font-style:bold; margin:1.5em 5px; padding:0.5em 0; text-align:center" align="center">第2部分：正文排版</h3>
+<h4 style="font-size:16px; color:#2298a5; font-style:bold; margin:1.5em 5px; padding:0.5em 0; text-align:center" align="center">一般规则</h4>
+<p style="margin:1.5em 5px">正文段落与段落之间需要空出一行（连按两次Enter），
 这样才会在html中生成两个p标签标记的段落。</p>
-<p><strong>注意</strong>：</p>
-<ul>
-<li>如果只按1次Enter换行，在排版结果中不会换行。</li>
-<li>如果必须要实现相当于br标签的段落内换行效果（这种情况很少），
+<p style="margin:1.5em 5px"><strong style="color:#2298a5">注意</strong>：</p>
+<ul style="margin:1.2em 0; padding-left:2em">
+<li style="margin:0.5em 0">如果只按1次Enter换行，在排版结果中不会换行。</li>
+<li style="margin:0.5em 0">如果必须要实现相当于br标签的段落内换行效果（这种情况很少），
 要先插入2个以上空格再按Enter。</li>
 </ul>
-<h4>突出强调</h4>
-<p>支持使用斜体、粗体、粗斜体强调部分文字，
+<h4 style="font-size:16px; color:#2298a5; font-style:bold; margin:1.5em 5px; padding:0.5em 0; text-align:center" align="center">突出强调</h4>
+<p style="margin:1.5em 5px">支持使用斜体、粗体、粗斜体强调部分文字，
 只需在需要强调的文字前后分别插入
-1个（斜体）、2个（粗体）、3个（粗斜体）<code>*</code>符号。</p>
-<p>以下写法示例：</p>
-<pre><code>**斜体**
+1个（斜体）、2个（粗体）、3个（粗斜体）<code style='color:#999; font-family:Roboto, "Courier New", Consolas, Inconsolata, Courier, monospace; font-size:12px; margin-left:5px; border:1px solid #ddd; border-radius:3px; display:inline; padding:3px 3px; white-space:pre-wrap'>*</code>符号。</p>
+<p style="margin:1.5em 5px">以下写法示例：</p>
+<pre style='margin:1.2em 0; color:#999; font-family:Roboto, "Courier New", Consolas, Inconsolata, Courier, monospace; font-size:12px; margin-left:5px; background-color:white; line-height:1.4em; display:block' bgcolor="white"><code style='color:#999; font-family:Roboto, "Courier New", Consolas, Inconsolata, Courier, monospace; font-size:12px; margin-left:5px; border:1px solid #ddd; border-radius:3px; display:block; padding:3px 3px; white-space:pre; overflow:auto'>**斜体**
 **粗体**
 ***粗斜体***
 </code></pre>
-<p>其显示效果为：</p>
-<p><strong>斜体</strong>
-<strong>粗体</strong>
-<strong><em>粗斜体</em></strong></p>
-<h4>使用列表</h4>
-<p>在HTML中列表分为无序列表和有序列表。</p>
-<h5>无序列表</h5>
-<p>在列表每一条目开头处插入一个<code>-</code>或<code>*</code>或<code>+</code>
-（任选一种即可，个人习惯统一使用<code>-</code>），以及紧跟的一个空格。</p>
-<p>以下写法示例：</p>
-<pre><code>- 这是一个无序列表
+<p style="margin:1.5em 5px">其显示效果为：</p>
+<p style="margin:1.5em 5px"><strong style="color:#2298a5">斜体</strong>
+<strong style="color:#2298a5">粗体</strong>
+<strong style="color:#2298a5"><em style="color:#2298a5">粗斜体</em></strong></p>
+<h4 style="font-size:16px; color:#2298a5; font-style:bold; margin:1.5em 5px; padding:0.5em 0; text-align:center" align="center">使用列表</h4>
+<p style="margin:1.5em 5px">在HTML中列表分为无序列表和有序列表。</p>
+<h5 style="font-size:14px; color:#2298a5; font-style:bold; margin:1.5em 5px; padding:0.5em 0; text-align:center" align="center">无序列表</h5>
+<p style="margin:1.5em 5px">在列表每一条目开头处插入一个<code style='color:#999; font-family:Roboto, "Courier New", Consolas, Inconsolata, Courier, monospace; font-size:12px; margin-left:5px; border:1px solid #ddd; border-radius:3px; display:inline; padding:3px 3px; white-space:pre-wrap'>-</code>或<code style='color:#999; font-family:Roboto, "Courier New", Consolas, Inconsolata, Courier, monospace; font-size:12px; margin-left:5px; border:1px solid #ddd; border-radius:3px; display:inline; padding:3px 3px; white-space:pre-wrap'>*</code>或<code style='color:#999; font-family:Roboto, "Courier New", Consolas, Inconsolata, Courier, monospace; font-size:12px; margin-left:5px; border:1px solid #ddd; border-radius:3px; display:inline; padding:3px 3px; white-space:pre-wrap'>+</code>
+（任选一种即可，个人习惯统一使用<code style='color:#999; font-family:Roboto, "Courier New", Consolas, Inconsolata, Courier, monospace; font-size:12px; margin-left:5px; border:1px solid #ddd; border-radius:3px; display:inline; padding:3px 3px; white-space:pre-wrap'>-</code>），以及紧跟的一个空格。</p>
+<p style="margin:1.5em 5px">以下写法示例：</p>
+<pre style='margin:1.2em 0; color:#999; font-family:Roboto, "Courier New", Consolas, Inconsolata, Courier, monospace; font-size:12px; margin-left:5px; background-color:white; line-height:1.4em; display:block' bgcolor="white"><code style='color:#999; font-family:Roboto, "Courier New", Consolas, Inconsolata, Courier, monospace; font-size:12px; margin-left:5px; border:1px solid #ddd; border-radius:3px; display:block; padding:3px 3px; white-space:pre; overflow:auto'>- 这是一个无序列表
 - 这是一个无序列表
 - 这是一个无序列表
 </code></pre>
-<p>其显示效果为：</p>
-<ul>
-<li>这是一个无序列表</li>
-<li>这是一个无序列表</li>
-<li>这是一个无序列表</li>
+<p style="margin:1.5em 5px">其显示效果为：</p>
+<ul style="margin:1.2em 0; padding-left:2em">
+<li style="margin:0.5em 0">这是一个无序列表</li>
+<li style="margin:0.5em 0">这是一个无序列表</li>
+<li style="margin:0.5em 0">这是一个无序列表</li>
 </ul>
-<h5>有序列表</h5>
-<p>如果需要对列表加上序号，则可以在每一条目开头处连续插入数字、<code>.</code>符号、空格。</p>
-<p>以下写法示例：</p>
-<pre><code>1. 第一条论据
+<h5 style="font-size:14px; color:#2298a5; font-style:bold; margin:1.5em 5px; padding:0.5em 0; text-align:center" align="center">有序列表</h5>
+<p style="margin:1.5em 5px">如果需要对列表加上序号，则可以在每一条目开头处连续插入数字、<code style='color:#999; font-family:Roboto, "Courier New", Consolas, Inconsolata, Courier, monospace; font-size:12px; margin-left:5px; border:1px solid #ddd; border-radius:3px; display:inline; padding:3px 3px; white-space:pre-wrap'>.</code>符号、空格。</p>
+<p style="margin:1.5em 5px">以下写法示例：</p>
+<pre style='margin:1.2em 0; color:#999; font-family:Roboto, "Courier New", Consolas, Inconsolata, Courier, monospace; font-size:12px; margin-left:5px; background-color:white; line-height:1.4em; display:block' bgcolor="white"><code style='color:#999; font-family:Roboto, "Courier New", Consolas, Inconsolata, Courier, monospace; font-size:12px; margin-left:5px; border:1px solid #ddd; border-radius:3px; display:block; padding:3px 3px; white-space:pre; overflow:auto'>1. 第一条论据
 2. 第二条论据
 3. 第三条论据
 </code></pre>
-<p>其显示效果为：</p>
-<ol>
-<li>第一条论据</li>
-<li>第二条论据</li>
-<li>第三条论据</li>
+<p style="margin:1.5em 5px">其显示效果为：</p>
+<ol style="margin:1.2em 0; padding-left:2em">
+<li style="margin:0.5em 0">第一条论据</li>
+<li style="margin:0.5em 0">第二条论据</li>
+<li style="margin:0.5em 0">第三条论据</li>
 </ol>
-<p><strong>注意</strong>：开头插入的数字到底是多少并不重要，HTML中显示的列表永远是顺序编号的，
+<p style="margin:1.5em 5px"><strong style="color:#2298a5">注意</strong>：开头插入的数字到底是多少并不重要，HTML中显示的列表永远是顺序编号的，
 以下这些写法：</p>
-<pre><code>1. 第一条论据
+<pre style='margin:1.2em 0; color:#999; font-family:Roboto, "Courier New", Consolas, Inconsolata, Courier, monospace; font-size:12px; margin-left:5px; background-color:white; line-height:1.4em; display:block' bgcolor="white"><code style='color:#999; font-family:Roboto, "Courier New", Consolas, Inconsolata, Courier, monospace; font-size:12px; margin-left:5px; border:1px solid #ddd; border-radius:3px; display:block; padding:3px 3px; white-space:pre; overflow:auto'>1. 第一条论据
 1. 第二条论据
 1. 第三条论据
 </code></pre>
-<p>或者，</p>
-<pre><code>1. 第一条论据
+<p style="margin:1.5em 5px">或者，</p>
+<pre style='margin:1.2em 0; color:#999; font-family:Roboto, "Courier New", Consolas, Inconsolata, Courier, monospace; font-size:12px; margin-left:5px; background-color:white; line-height:1.4em; display:block' bgcolor="white"><code style='color:#999; font-family:Roboto, "Courier New", Consolas, Inconsolata, Courier, monospace; font-size:12px; margin-left:5px; border:1px solid #ddd; border-radius:3px; display:block; padding:3px 3px; white-space:pre; overflow:auto'>1. 第一条论据
 5. 第二条论据
 200. 第三条论据
 </code></pre>
-<p>最终显示效果与上面的第一种完全相同，但为了明晰起见，建议还是使用顺序编号。</p>
-<p>如果需要在段落开头显示不加转换的<code>200.</code>这类格式，请写成<code>200\.</code></p>
-<h4>进行引用</h4>
-<p>在引用的段落开头处插入<code>&gt;</code>进行标记。可以用这个效果标记文章导语。</p>
-<p>如果需要在同一个引用块内插入多个段落，段落之间需要用空行间隔，
-然后在每一段开头都插入<code>&gt;</code>。</p>
-<p>以下写法示例：</p>
-<pre><code>&gt; 引用的第一段。
+<p style="margin:1.5em 5px">最终显示效果与上面的第一种完全相同，但为了明晰起见，建议还是使用顺序编号。</p>
+<p style="margin:1.5em 5px">如果需要在段落开头显示不加转换的<code style='color:#999; font-family:Roboto, "Courier New", Consolas, Inconsolata, Courier, monospace; font-size:12px; margin-left:5px; border:1px solid #ddd; border-radius:3px; display:inline; padding:3px 3px; white-space:pre-wrap'>200.</code>这类格式，请写成<code style='color:#999; font-family:Roboto, "Courier New", Consolas, Inconsolata, Courier, monospace; font-size:12px; margin-left:5px; border:1px solid #ddd; border-radius:3px; display:inline; padding:3px 3px; white-space:pre-wrap'>200\.</code></p>
+<h4 style="font-size:16px; color:#2298a5; font-style:bold; margin:1.5em 5px; padding:0.5em 0; text-align:center" align="center">进行引用</h4>
+<p style="margin:1.5em 5px">在引用的段落开头处插入<code style='color:#999; font-family:Roboto, "Courier New", Consolas, Inconsolata, Courier, monospace; font-size:12px; margin-left:5px; border:1px solid #ddd; border-radius:3px; display:inline; padding:3px 3px; white-space:pre-wrap'>&gt;</code>进行标记。可以用这个效果标记文章导语。</p>
+<p style="margin:1.5em 5px">如果需要在同一个引用块内插入多个段落，段落之间需要用空行间隔，
+然后在每一段开头都插入<code style='color:#999; font-family:Roboto, "Courier New", Consolas, Inconsolata, Courier, monospace; font-size:12px; margin-left:5px; border:1px solid #ddd; border-radius:3px; display:inline; padding:3px 3px; white-space:pre-wrap'>&gt;</code>。</p>
+<p style="margin:1.5em 5px">以下写法示例：</p>
+<pre style='margin:1.2em 0; color:#999; font-family:Roboto, "Courier New", Consolas, Inconsolata, Courier, monospace; font-size:12px; margin-left:5px; background-color:white; line-height:1.4em; display:block' bgcolor="white"><code style='color:#999; font-family:Roboto, "Courier New", Consolas, Inconsolata, Courier, monospace; font-size:12px; margin-left:5px; border:1px solid #ddd; border-radius:3px; display:block; padding:3px 3px; white-space:pre; overflow:auto'>&gt; 引用的第一段。
 
 &gt; 引用的第二段。
 </code></pre>
-<p>其显示效果为：</p>
-<blockquote><p>引用的第一段。</p>
-<p>引用的第二段。</p>
+<p style="margin:1.5em 5px">其显示效果为：</p>
+<blockquote style="margin:1.2em 0; border:2px dashed #2298a5; color:#999; margin-left:5px; padding:0 10px; quotes:none">
+<p style="margin:1.5em 5px">引用的第一段。</p>
+<p style="margin:1.5em 5px">引用的第二段。</p>
 </blockquote>
-<h4>使用分割线</h4>
-<p>在单独一行上连续插入三个以上<code>-</code>或<code>*</code>或<code>_</code>。</p>
-<p>以下写法示例：</p>
-<pre><code>--------
+<h4 style="font-size:16px; color:#2298a5; font-style:bold; margin:1.5em 5px; padding:0.5em 0; text-align:center" align="center">使用分割线</h4>
+<p style="margin:1.5em 5px">在单独一行上连续插入三个以上<code style='color:#999; font-family:Roboto, "Courier New", Consolas, Inconsolata, Courier, monospace; font-size:12px; margin-left:5px; border:1px solid #ddd; border-radius:3px; display:inline; padding:3px 3px; white-space:pre-wrap'>-</code>或<code style='color:#999; font-family:Roboto, "Courier New", Consolas, Inconsolata, Courier, monospace; font-size:12px; margin-left:5px; border:1px solid #ddd; border-radius:3px; display:inline; padding:3px 3px; white-space:pre-wrap'>*</code>或<code style='color:#999; font-family:Roboto, "Courier New", Consolas, Inconsolata, Courier, monospace; font-size:12px; margin-left:5px; border:1px solid #ddd; border-radius:3px; display:inline; padding:3px 3px; white-space:pre-wrap'>_</code>。</p>
+<p style="margin:1.5em 5px">以下写法示例：</p>
+<pre style='margin:1.2em 0; color:#999; font-family:Roboto, "Courier New", Consolas, Inconsolata, Courier, monospace; font-size:12px; margin-left:5px; background-color:white; line-height:1.4em; display:block' bgcolor="white"><code style='color:#999; font-family:Roboto, "Courier New", Consolas, Inconsolata, Courier, monospace; font-size:12px; margin-left:5px; border:1px solid #ddd; border-radius:3px; display:block; padding:3px 3px; white-space:pre; overflow:auto'>--------
 ********
 ________
 </code></pre>
-<p>其显示效果为：</p>
-<hr>
-<hr>
-<hr>
-<h3>第3部分：其他应用</h3>
-<h4>删除线</h4>
-<p>在需要用删除线标记的文字前后分别插入<code>~~</code>，效果：<del>要划出的文字</del></p>
-<p>以下写法示例：</p>
-<pre><code>~~要划除的文字~~
+<p style="margin:1.5em 5px">其显示效果为：</p>
+<hr style="border:2px solid #2298a5; margin:2em 5px">
+<hr style="border:2px solid #2298a5; margin:2em 5px">
+<hr style="border:2px solid #2298a5; margin:2em 5px">
+<h3 style="font-size:18px; color:#2298a5; font-style:bold; margin:1.5em 5px; padding:0.5em 0; text-align:center" align="center">第3部分：其他应用</h3>
+<h4 style="font-size:16px; color:#2298a5; font-style:bold; margin:1.5em 5px; padding:0.5em 0; text-align:center" align="center">删除线</h4>
+<p style="margin:1.5em 5px">在需要用删除线标记的文字前后分别插入<code style='color:#999; font-family:Roboto, "Courier New", Consolas, Inconsolata, Courier, monospace; font-size:12px; margin-left:5px; border:1px solid #ddd; border-radius:3px; display:inline; padding:3px 3px; white-space:pre-wrap'>~~</code>，效果：<del>要划出的文字</del></p>
+<p style="margin:1.5em 5px">以下写法示例：</p>
+<pre style='margin:1.2em 0; color:#999; font-family:Roboto, "Courier New", Consolas, Inconsolata, Courier, monospace; font-size:12px; margin-left:5px; background-color:white; line-height:1.4em; display:block' bgcolor="white"><code style='color:#999; font-family:Roboto, "Courier New", Consolas, Inconsolata, Courier, monospace; font-size:12px; margin-left:5px; border:1px solid #ddd; border-radius:3px; display:block; padding:3px 3px; white-space:pre; overflow:auto'>~~要划除的文字~~
 </code></pre>
-<p>其显示效果为：</p>
-<p><del>要划除的文字</del></p>
-<h4>插入代码</h4>
-<p>可以使用代码块插入特殊的符号或语句（如不希望转义的Markdown或HTML）</p>
-<p>手机上的微信浏览器无法显示代码块的边框和背景颜色，只能改变字体颜色和字号。</p>
-<ul>
-<li>在行内插入代码：在代码前后分别插入<code>`</code>符号（反引号，需要在英文模式下输入）。</li>
-<li>插入专门代码块：在代码每行开头使用TAB键（或4个空格）进行缩进。(也可以在整个段落上下分别插入一行，内容为：<code>```</code>)</li>
+<p style="margin:1.5em 5px">其显示效果为：</p>
+<p style="margin:1.5em 5px"><del>要划除的文字</del></p>
+<h4 style="font-size:16px; color:#2298a5; font-style:bold; margin:1.5em 5px; padding:0.5em 0; text-align:center" align="center">插入代码</h4>
+<p style="margin:1.5em 5px">可以使用代码块插入特殊的符号或语句（如不希望转义的Markdown或HTML）</p>
+<p style="margin:1.5em 5px">手机上的微信浏览器无法显示代码块的边框和背景颜色，只能改变字体颜色和字号。</p>
+<ul style="margin:1.2em 0; padding-left:2em">
+<li style="margin:0.5em 0">在行内插入代码：在代码前后分别插入<code style='color:#999; font-family:Roboto, "Courier New", Consolas, Inconsolata, Courier, monospace; font-size:12px; margin-left:5px; border:1px solid #ddd; border-radius:3px; display:inline; padding:3px 3px; white-space:pre-wrap'>`</code>符号（反引号，需要在英文模式下输入）。</li>
+<li style="margin:0.5em 0">插入专门代码块：在代码每行开头使用TAB键（或4个空格）进行缩进。(也可以在整个段落上下分别插入一行，内容为：<code style='color:#999; font-family:Roboto, "Courier New", Consolas, Inconsolata, Courier, monospace; font-size:12px; margin-left:5px; border:1px solid #ddd; border-radius:3px; display:inline; padding:3px 3px; white-space:pre-wrap'>```</code>)</li>
 </ul>
-<p>以下写法示例：</p>
-<pre><code>你可以在行内插入代码或特殊字符，比如`print "hello world"`
+<p style="margin:1.5em 5px">以下写法示例：</p>
+<pre style='margin:1.2em 0; color:#999; font-family:Roboto, "Courier New", Consolas, Inconsolata, Courier, monospace; font-size:12px; margin-left:5px; background-color:white; line-height:1.4em; display:block' bgcolor="white"><code style='color:#999; font-family:Roboto, "Courier New", Consolas, Inconsolata, Courier, monospace; font-size:12px; margin-left:5px; border:1px solid #ddd; border-radius:3px; display:block; padding:3px 3px; white-space:pre; overflow:auto'>你可以在行内插入代码或特殊字符，比如`print "hello world"`
 </code></pre>
-<p>其显示效果为：</p>
-<p>你可以在行内插入代码或特殊字符，比如<code>print "hello world"</code></p>
-<p>以下写法示例（注意缩进）：</p>
-<pre><code>    name = 'Aaron'
+<p style="margin:1.5em 5px">其显示效果为：</p>
+<p style="margin:1.5em 5px">你可以在行内插入代码或特殊字符，比如<code style='color:#999; font-family:Roboto, "Courier New", Consolas, Inconsolata, Courier, monospace; font-size:12px; margin-left:5px; border:1px solid #ddd; border-radius:3px; display:inline; padding:3px 3px; white-space:pre-wrap'>print "hello world"</code></p>
+<p style="margin:1.5em 5px">以下写法示例（注意缩进）：</p>
+<pre style='margin:1.2em 0; color:#999; font-family:Roboto, "Courier New", Consolas, Inconsolata, Courier, monospace; font-size:12px; margin-left:5px; background-color:white; line-height:1.4em; display:block' bgcolor="white"><code style='color:#999; font-family:Roboto, "Courier New", Consolas, Inconsolata, Courier, monospace; font-size:12px; margin-left:5px; border:1px solid #ddd; border-radius:3px; display:block; padding:3px 3px; white-space:pre; overflow:auto'>    name = 'Aaron'
     print "hello " + name
 </code></pre>
-<p>其显示效果为：</p>
-<pre><code>    name = 'Aaron'
+<p style="margin:1.5em 5px">其显示效果为：</p>
+<pre style='margin:1.2em 0; color:#999; font-family:Roboto, "Courier New", Consolas, Inconsolata, Courier, monospace; font-size:12px; margin-left:5px; background-color:white; line-height:1.4em; display:block' bgcolor="white"><code style='color:#999; font-family:Roboto, "Courier New", Consolas, Inconsolata, Courier, monospace; font-size:12px; margin-left:5px; border:1px solid #ddd; border-radius:3px; display:block; padding:3px 3px; white-space:pre; overflow:auto'>    name = 'Aaron'
     print "hello " + name
 </code></pre>
-<h4>超链接</h4>
-<p>Markdown引用链接方式为：</p>
-<pre><code>[链接文本](http://example.net/)
+<h4 style="font-size:16px; color:#2298a5; font-style:bold; margin:1.5em 5px; padding:0.5em 0; text-align:center" align="center">超链接</h4>
+<p style="margin:1.5em 5px">Markdown引用链接方式为：</p>
+<pre style='margin:1.2em 0; color:#999; font-family:Roboto, "Courier New", Consolas, Inconsolata, Courier, monospace; font-size:12px; margin-left:5px; background-color:white; line-height:1.4em; display:block' bgcolor="white"><code style='color:#999; font-family:Roboto, "Courier New", Consolas, Inconsolata, Courier, monospace; font-size:12px; margin-left:5px; border:1px solid #ddd; border-radius:3px; display:block; padding:3px 3px; white-space:pre; overflow:auto'>[链接文本](http://example.net/)
 </code></pre>
-<p>微信公众号不支持发送超链接， 在浏览器中可以看到以上写法的显示效果：</p>
-<p><a href="http://example.net/">链接文本</a></p>
-<h4>图片</h4>
-<p>Markdown引用图片方式为：</p>
-<pre><code>![默认文本](http://example.net/image.png)
+<p style="margin:1.5em 5px">微信公众号不支持发送超链接， 在浏览器中可以看到以上写法的显示效果：</p>
+<p style="margin:1.5em 5px"><a href="http://example.net/" style="color:#2298a5; text-decoration:none">链接文本</a></p>
+<h4 style="font-size:16px; color:#2298a5; font-style:bold; margin:1.5em 5px; padding:0.5em 0; text-align:center" align="center">图片</h4>
+<p style="margin:1.5em 5px">Markdown引用图片方式为：</p>
+<pre style='margin:1.2em 0; color:#999; font-family:Roboto, "Courier New", Consolas, Inconsolata, Courier, monospace; font-size:12px; margin-left:5px; background-color:white; line-height:1.4em; display:block' bgcolor="white"><code style='color:#999; font-family:Roboto, "Courier New", Consolas, Inconsolata, Courier, monospace; font-size:12px; margin-left:5px; border:1px solid #ddd; border-radius:3px; display:block; padding:3px 3px; white-space:pre; overflow:auto'>![默认文本](http://example.net/image.png)
 </code></pre>
-<p>图片排版功能将后续进行开发，目前建议用直接用微信编辑器插入图片.</p>
-<hr>
-<hr>
-<p><strong>附一个简易排版示例：</strong></p>
-<h2>9条实用技巧教你玩转搜索引擎</h2>
-<h3>1. 使用Google搜索</h3>
-<p>也许你认为这不算一条技巧，不过这却是我能想到的最有用的一条建议了，所以本文以下内容都是基于Google的。</p>
-<p>简言之：</p>
-<p><strong>时间 = 生命</strong></p>
-<p><strong>信息 = 财富</strong></p>
-<p>想付出最少的时间，获得最精准的信息，用Google。</p>
-<p>当然了，国内环境下，以下2种情况请安心使用百度：</p>
-<ol>
-<li>做SEO的时候；</li>
-<li>测试网络连接状况的时候。</li>
+<p style="margin:1.5em 5px">图片排版功能将后续进行开发，目前建议用直接用微信编辑器插入图片.</p>
+<hr style="border:2px solid #2298a5; margin:2em 5px">
+<hr style="border:2px solid #2298a5; margin:2em 5px">
+<p style="margin:1.5em 5px"><strong style="color:#2298a5">附一个简易排版示例：</strong></p>
+<h2 style="color:#2298a5; font-style:bold; margin:0.5em 5px; padding:0.5em 0; text-align:left; border-bottom:1px solid #eee; font-size:20px" align="left">9条实用技巧教你玩转搜索引擎</h2>
+<h3 style="font-size:18px; color:#2298a5; font-style:bold; margin:1.5em 5px; padding:0.5em 0; text-align:center" align="center">1. 使用Google搜索</h3>
+<p style="margin:1.5em 5px">也许你认为这不算一条技巧，不过这却是我能想到的最有用的一条建议了，所以本文以下内容都是基于Google的。</p>
+<p style="margin:1.5em 5px">简言之：</p>
+<p style="margin:1.5em 5px"><strong style="color:#2298a5">时间 = 生命</strong></p>
+<p style="margin:1.5em 5px"><strong style="color:#2298a5">信息 = 财富</strong></p>
+<p style="margin:1.5em 5px">想付出最少的时间，获得最精准的信息，用Google。</p>
+<p style="margin:1.5em 5px">当然了，国内环境下，以下2种情况请安心使用百度：</p>
+<ol style="margin:1.2em 0; padding-left:2em">
+<li style="margin:0.5em 0">做SEO的时候；</li>
+<li style="margin:0.5em 0">测试网络连接状况的时候。</li>
 </ol>
-<h3>2. www.google.com/ncr</h3>
-<p>在国内访问Google经常要通过代理，这时自动打开的是代理地的Google站，如香港是 <em>www.google.com.hk</em> ， <em>www.google.co.jp</em> ，搜索结果也被做了一定的本地优化，可能我们并不需要。其实在浏览器地址栏输入 <a href="www.google.com/ncr">www.google.com/ncr</a> 并访问，就可以重置回无国籍的 <em>www.google.com</em> 了。（<em>ncr</em>的意思是<em>no country redirect</em>）</p>
-<h3>3. "关键词"</h3>
-<p>用双引号包含关键词，可以进行完全匹配搜索，也就是只有完整包括引号中关键词的网页，才会出现在搜索结果中。建议使用标准的英文双引号，不过如果手滑打了中文的双引号，目前也是可以识别的。中英文的单引号都会被忽略。</p>
-<p>另外引号可以跟通配符<code>*</code>配合使用，<code>*</code>代表任何未知或不确定的字词，比如<code>*个标题公式</code>。（<code>*</code>也可以单独使用）</p>
-<h3>4. 关键词 site:域名</h3>
-<p>进行站内搜索，例如在搜索框中输入<code>写作方法 site:zhihu.com</code>，在知乎站内搜索”写作方法“。</p>
-<p>不一定要用完整域名，比如<code>学生就业 site:edu</code>，只搜索域名为“edu”结尾的教育网。</p>
-<h3>5. 关键词 filetype:文件类型</h3>
-<p>例：<code>商业计划书 filetype:ppt</code>，只搜索网络上的ppt文件。</p>
-<h3>6. 关键词 -排除关键词</h3>
-<p>例：<code>文案写作 -广告</code>，搜索“文案写作”，且结果中不出现“广告”。</p>
-<h3>7. 关键词A OR 关键词B</h3>
-<p>结果中包含关键词A或者关键词B（或者都有），注意<code>OR</code>要大写，例：<code>微信运营 OR 新媒体运营</code>。不需要<code>AND</code>，因为什么都不加的时候默认就是<code>AND</code>关系，如果需要特别强调某些关键词，请用双引号把它们分别包起来。</p>
-<h3>8. related:域名</h3>
-<p>查找具有类似内容的网页，如<code>related:zhihu.com</code>，得到的前几条结果是果壳网、互动百科、搜狗百科、中国百科网、36氪。<code>related:jianshu.com</code>，前几条结果是知乎、V2EX、果壳、36氪。如果你找到了一个自己喜欢的网站，想要发掘更多类似网站，这是一个好办法。</p>
-<h3>9. 数学运算/绘图等</h3>
-<ul>
-<li><code>3..9</code>：代表数字范围3至9。</li>
-<li><code>1024 * 2048</code>：得出运算结果。</li>
-<li><code>y=x^2-1</code>：绘制函数图像。</li>
-<li><code>100 人民币 = ?美元</code>：得出货币兑换结果。</li>
+<h3 style="font-size:18px; color:#2298a5; font-style:bold; margin:1.5em 5px; padding:0.5em 0; text-align:center" align="center">2. www.google.com/ncr</h3>
+<p style="margin:1.5em 5px">在国内访问Google经常要通过代理，这时自动打开的是代理地的Google站，如香港是 <em style="color:#2298a5">www.google.com.hk</em> ， <em style="color:#2298a5">www.google.co.jp</em> ，搜索结果也被做了一定的本地优化，可能我们并不需要。其实在浏览器地址栏输入 <a href="www.google.com/ncr" style="color:#2298a5; text-decoration:none">www.google.com/ncr</a> 并访问，就可以重置回无国籍的 <em style="color:#2298a5">www.google.com</em> 了。（<em style="color:#2298a5">ncr</em>的意思是<em style="color:#2298a5">no country redirect</em>）</p>
+<h3 style="font-size:18px; color:#2298a5; font-style:bold; margin:1.5em 5px; padding:0.5em 0; text-align:center" align="center">3. "关键词"</h3>
+<p style="margin:1.5em 5px">用双引号包含关键词，可以进行完全匹配搜索，也就是只有完整包括引号中关键词的网页，才会出现在搜索结果中。建议使用标准的英文双引号，不过如果手滑打了中文的双引号，目前也是可以识别的。中英文的单引号都会被忽略。</p>
+<p style="margin:1.5em 5px">另外引号可以跟通配符<code style='color:#999; font-family:Roboto, "Courier New", Consolas, Inconsolata, Courier, monospace; font-size:12px; margin-left:5px; border:1px solid #ddd; border-radius:3px; display:inline; padding:3px 3px; white-space:pre-wrap'>*</code>配合使用，<code style='color:#999; font-family:Roboto, "Courier New", Consolas, Inconsolata, Courier, monospace; font-size:12px; margin-left:5px; border:1px solid #ddd; border-radius:3px; display:inline; padding:3px 3px; white-space:pre-wrap'>*</code>代表任何未知或不确定的字词，比如<code style='color:#999; font-family:Roboto, "Courier New", Consolas, Inconsolata, Courier, monospace; font-size:12px; margin-left:5px; border:1px solid #ddd; border-radius:3px; display:inline; padding:3px 3px; white-space:pre-wrap'>*个标题公式</code>。（<code style='color:#999; font-family:Roboto, "Courier New", Consolas, Inconsolata, Courier, monospace; font-size:12px; margin-left:5px; border:1px solid #ddd; border-radius:3px; display:inline; padding:3px 3px; white-space:pre-wrap'>*</code>也可以单独使用）</p>
+<h3 style="font-size:18px; color:#2298a5; font-style:bold; margin:1.5em 5px; padding:0.5em 0; text-align:center" align="center">4. 关键词 site:域名</h3>
+<p style="margin:1.5em 5px">进行站内搜索，例如在搜索框中输入<code style='color:#999; font-family:Roboto, "Courier New", Consolas, Inconsolata, Courier, monospace; font-size:12px; margin-left:5px; border:1px solid #ddd; border-radius:3px; display:inline; padding:3px 3px; white-space:pre-wrap'>写作方法 site:zhihu.com</code>，在知乎站内搜索”写作方法“。</p>
+<p style="margin:1.5em 5px">不一定要用完整域名，比如<code style='color:#999; font-family:Roboto, "Courier New", Consolas, Inconsolata, Courier, monospace; font-size:12px; margin-left:5px; border:1px solid #ddd; border-radius:3px; display:inline; padding:3px 3px; white-space:pre-wrap'>学生就业 site:edu</code>，只搜索域名为“edu”结尾的教育网。</p>
+<h3 style="font-size:18px; color:#2298a5; font-style:bold; margin:1.5em 5px; padding:0.5em 0; text-align:center" align="center">5. 关键词 filetype:文件类型</h3>
+<p style="margin:1.5em 5px">例：<code style='color:#999; font-family:Roboto, "Courier New", Consolas, Inconsolata, Courier, monospace; font-size:12px; margin-left:5px; border:1px solid #ddd; border-radius:3px; display:inline; padding:3px 3px; white-space:pre-wrap'>商业计划书 filetype:ppt</code>，只搜索网络上的ppt文件。</p>
+<h3 style="font-size:18px; color:#2298a5; font-style:bold; margin:1.5em 5px; padding:0.5em 0; text-align:center" align="center">6. 关键词 -排除关键词</h3>
+<p style="margin:1.5em 5px">例：<code style='color:#999; font-family:Roboto, "Courier New", Consolas, Inconsolata, Courier, monospace; font-size:12px; margin-left:5px; border:1px solid #ddd; border-radius:3px; display:inline; padding:3px 3px; white-space:pre-wrap'>文案写作 -广告</code>，搜索“文案写作”，且结果中不出现“广告”。</p>
+<h3 style="font-size:18px; color:#2298a5; font-style:bold; margin:1.5em 5px; padding:0.5em 0; text-align:center" align="center">7. 关键词A OR 关键词B</h3>
+<p style="margin:1.5em 5px">结果中包含关键词A或者关键词B（或者都有），注意<code style='color:#999; font-family:Roboto, "Courier New", Consolas, Inconsolata, Courier, monospace; font-size:12px; margin-left:5px; border:1px solid #ddd; border-radius:3px; display:inline; padding:3px 3px; white-space:pre-wrap'>OR</code>要大写，例：<code style='color:#999; font-family:Roboto, "Courier New", Consolas, Inconsolata, Courier, monospace; font-size:12px; margin-left:5px; border:1px solid #ddd; border-radius:3px; display:inline; padding:3px 3px; white-space:pre-wrap'>微信运营 OR 新媒体运营</code>。不需要<code style='color:#999; font-family:Roboto, "Courier New", Consolas, Inconsolata, Courier, monospace; font-size:12px; margin-left:5px; border:1px solid #ddd; border-radius:3px; display:inline; padding:3px 3px; white-space:pre-wrap'>AND</code>，因为什么都不加的时候默认就是<code style='color:#999; font-family:Roboto, "Courier New", Consolas, Inconsolata, Courier, monospace; font-size:12px; margin-left:5px; border:1px solid #ddd; border-radius:3px; display:inline; padding:3px 3px; white-space:pre-wrap'>AND</code>关系，如果需要特别强调某些关键词，请用双引号把它们分别包起来。</p>
+<h3 style="font-size:18px; color:#2298a5; font-style:bold; margin:1.5em 5px; padding:0.5em 0; text-align:center" align="center">8. related:域名</h3>
+<p style="margin:1.5em 5px">查找具有类似内容的网页，如<code style='color:#999; font-family:Roboto, "Courier New", Consolas, Inconsolata, Courier, monospace; font-size:12px; margin-left:5px; border:1px solid #ddd; border-radius:3px; display:inline; padding:3px 3px; white-space:pre-wrap'>related:zhihu.com</code>，得到的前几条结果是果壳网、互动百科、搜狗百科、中国百科网、36氪。<code style='color:#999; font-family:Roboto, "Courier New", Consolas, Inconsolata, Courier, monospace; font-size:12px; margin-left:5px; border:1px solid #ddd; border-radius:3px; display:inline; padding:3px 3px; white-space:pre-wrap'>related:jianshu.com</code>，前几条结果是知乎、V2EX、果壳、36氪。如果你找到了一个自己喜欢的网站，想要发掘更多类似网站，这是一个好办法。</p>
+<h3 style="font-size:18px; color:#2298a5; font-style:bold; margin:1.5em 5px; padding:0.5em 0; text-align:center" align="center">9. 数学运算/绘图等</h3>
+<ul style="margin:1.2em 0; padding-left:2em">
+<li style="margin:0.5em 0">
+<code style='color:#999; font-family:Roboto, "Courier New", Consolas, Inconsolata, Courier, monospace; font-size:12px; margin-left:5px; border:1px solid #ddd; border-radius:3px; display:inline; padding:3px 3px; white-space:pre-wrap'>3..9</code>：代表数字范围3至9。</li>
+<li style="margin:0.5em 0">
+<code style='color:#999; font-family:Roboto, "Courier New", Consolas, Inconsolata, Courier, monospace; font-size:12px; margin-left:5px; border:1px solid #ddd; border-radius:3px; display:inline; padding:3px 3px; white-space:pre-wrap'>1024 * 2048</code>：得出运算结果。</li>
+<li style="margin:0.5em 0">
+<code style='color:#999; font-family:Roboto, "Courier New", Consolas, Inconsolata, Courier, monospace; font-size:12px; margin-left:5px; border:1px solid #ddd; border-radius:3px; display:inline; padding:3px 3px; white-space:pre-wrap'>y=x^2-1</code>：绘制函数图像。</li>
+<li style="margin:0.5em 0">
+<code style='color:#999; font-family:Roboto, "Courier New", Consolas, Inconsolata, Courier, monospace; font-size:12px; margin-left:5px; border:1px solid #ddd; border-radius:3px; display:inline; padding:3px 3px; white-space:pre-wrap'>100 人民币 = ?美元</code>：得出货币兑换结果。</li>
 </ul>
-</body></html>
+</body>
+</html>
