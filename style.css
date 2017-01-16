@@ -9,7 +9,7 @@ body {
 }
 
 h1, h2 {
-  font-style: bold !important;
+  font-weight: bold !important;
   color: #2298a5 !important;
   margin: 0.5em 5px !important;
   padding: 0.5em 0px !important;
@@ -17,7 +17,7 @@ h1, h2 {
 }
 
 h3, h4, h5, h6 {
-  font-style: bold !important;
+  font-weight: bold !important;
   color: #2298a5 !important;
   margin: 1.5em 5px !important;
   padding: 0.5em 0px !important;
@@ -109,9 +109,8 @@ blockquote::before, blockquote::after, q::before, q::after {
 }
 
 pre, code {
-  font-size: 12px;
+  font-size: 12px !important;
   color: #999;
-  font-family: Roboto, 'Courier New', Consolas, Inconsolata, Courier, monospace;
   margin-left: 5px;
 }
 
