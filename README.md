@@ -1,9 +1,14 @@
 # wxprint：微信公众号一键排版
 
 ##运行环境
-Python 3
+Python 3.5.2
 
-依赖：mistune，premailer
+依赖：[mistune](https://github.com/lepture/mistune)，
+[premailer](https://github.com/peterbe/premailer)
+
+运行以下命令安装：
+
+```pip install -r requirements.txt```
 
 ##使用方法
 1. 使用Markdown写作，并保存为`.md`文件。
