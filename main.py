@@ -34,9 +34,10 @@ def convert_all(src='source', dst='html_output', style='default_style.css'):
             print('成功：转换后的.html文件保存在html_output文件夹中')
             print('在history文件中查看转换完毕的.md源文件')
 
+
 if __name__ == '__main__':
     try:
-        convert_all()
+        convert_all(src='source', dst='html_output', style='default_style.css')
     except:
         input('错误：运行前请将所有要转换的.md文件放入source文件夹中'
               '按回车键结束程序：')
